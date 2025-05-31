@@ -36,6 +36,22 @@ TARGET_URL = "https://example.com"
 ELEMENTS_TO_SCRAPE = ['h1', 'h2', 'p', 'a']
 REQUEST_DELAY = 2  # seconds
 ```
+##How to start
+
+1. **Set up the environment**:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # Linux/Mac
+   .venv\Scripts\activate    # Windows
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+3. **Run app**:
+   ```bash
+   python app.py
+  
 
 Run the script, and you’ll get files like `example_com_content_20230531-150000.csv` with all your scraped data.
 
