@@ -36,7 +36,7 @@ TARGET_URL = "https://example.com"
 ELEMENTS_TO_SCRAPE = ['h1', 'h2', 'p', 'a']
 REQUEST_DELAY = 2  # seconds
 ```
-##How to start
+## How to start
 
 1. **Set up the environment**:
    ```bash
